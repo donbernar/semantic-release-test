@@ -1,0 +1,21 @@
+{
+  "name": "ci-with-semantic-release",
+  "version": "1.0.0",
+  "description": "Testing semantic-release",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gc": "git-cz"
+  },
+  "author": "@donbernar",
+  "license": "ISC",
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
